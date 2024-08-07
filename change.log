@@ -1,0 +1,28 @@
+﻿==>>HC32L17x_Rev1.2.0 Release 2022-09-28
+    1、针对安全及速度优化FLASH驱动及FLASH操作模式；
+    
+==>>HC32L17x_Rev1.1.0 Release 2022-07-18
+    1、修改adt.h关于TRIG信号端口的定义
+    2、修改SYSCTRL章节PLL_CR.REFSEL的枚举en_sysctrl_pll_clksource_t成员值的定义
+    3、更新license、logo、FLM相关信息；
+    4、增加通用定时器模式1样例的通道捕获模式设置
+    5、增加(LP)UART超时处理函数;
+    6、I2C样例初始化顺序更新;
+	
+==>>HC32L17x_Rev1.0.3 Release 2020-06-02:
+    1、增加和完善低功耗模式下，对未封出IO的初始化；
+    2、修改adt.h关于TRIG信号端口的定义
+
+==>>HC32L17x_Rev1.0.2 Release 2020-05-26:
+    1、优化(LP)UART波特率算法；
+    2、优化PLL使能配置流程;
+    3、更新FLASH TIMEOUT时间；
+==>>HC32L17x_Rev1.0.1 Release 2019-10-26:
+    1、优化系统初始化操作；
+    2、简化系统时钟切换流程，提供“一键切换”API；
+    3、增加SPI操作API，优化API通信样例，简化API操作；
+    4、GPIO初始化增加默认输出电平配置；
+    5、GPIO增加和简化端口复用操作API；
+    6、ddl.h增加寄存器位操作宏；
+==>>HC32L17x_Rev1.0.0 Release 2019-07-01:
+	Initial Version
